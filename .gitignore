@@ -1,57 +1,28 @@
-assets/*
-!assets/.gitignore
-protected/runtime/*
-!protected/runtime/.gitignore
-protected/data/*.db
-themes/classic/views/
+# phpstorm project files
+.idea
 
-# =========================
-# Operating System Files
-# =========================
+# netbeans project files
+nbproject
 
-# OSX
-# =========================
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
 
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# Windows
-# =========================
-
-# Windows image file caches
+# windows thumbnail cache
 Thumbs.db
-ehthumbs.db
 
-# Folder config file
-Desktop.ini
+# composer vendor dir
+/vendor
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# composer itself is not needed
+composer.phar
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Mac DS_Store Files
+.DS_Store
 
-# Windows shortcuts
-*.lnk
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+views/layouts/main - copia.php
