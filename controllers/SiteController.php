@@ -51,6 +51,11 @@ class SiteController extends Controller
     {
         return $this->render('index');
     }
+	
+	public function actionHv()
+    {
+        return $this->render('hv');
+    }
 
     public function actionLogin()
     {
